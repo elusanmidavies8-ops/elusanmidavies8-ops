@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">Ayomide.dev banner</title>
+  <desc id="desc">Dark blue and teal abstract developer banner for Ayomide.dev with the name Ayomide and accent .dev</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="46%" stop-color="#101d34"/>
+      <stop offset="100%" stop-color="#106f94"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#2dd4bf"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="260" fill="url(#bg)"/>
+  <circle cx="1082" cy="40" r="128" fill="#60a5fa" opacity="0.12"/>
+  <circle cx="960" cy="204" r="152" fill="#38bdf8" opacity="0.10"/>
+  <circle cx="130" cy="200" r="172" fill="#2dd4bf" opacity="0.08"/>
+  <path d="M0,196 L170,158 L330,192 L500,136 L680,180 L875,120 L1038,175 L1200,95 L1200,260 L0,260 Z" fill="#ffffff" opacity="0.04"/>
+
+  <g transform="translate(70,70)">
+    <text x="0" y="60" font-size="52" font-weight="700" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif">Ayomide</text>
+    <text x="310" y="60" font-size="52" font-weight="700" fill="#60a5fa" font-family="Segoe UI, Arial, sans-serif">.dev</text>
+
+    <rect x="0" y="86" width="260" height="4" rx="2" fill="url(#line)"/>
+
+    <text x="0" y="126" font-size="20" letter-spacing="2" fill="#dbeafe" font-family="Segoe UI, Arial, sans-serif" font-weight="600">SOFTWARE ENGINEER</text>
+  </g>
+</svg>
